@@ -27,13 +27,31 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
+
 .main-img {
   display: block;
   border-radius: 100%;
   margin: 0 auto;
-} */
+}
+
+header {
+  background-color: rgba(255, 193, 8, 0.7);
+  border-radius: 10px;
+}
 
 header h1 {
   text-align: center;
+}
+
+.card-header {
+  font-size: 1.6rem;
+}
+
+.card-footer span {
+  font-weight: bold;
+}
+
+.search {
+  margin: 0 auto;
+  margin-bottom: 4%;
 }
